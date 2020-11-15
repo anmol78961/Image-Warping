@@ -10,8 +10,8 @@ Run the Code "BilinearInterpolation.m". The code extends the backward-warping pr
 Run the code "LensUndistortion.m". This code applies a different warping function that is commonly used for removing lens distortion from images, i.e. to make straight lines straight again. The image used is "window.jpg".
 
 ## Homographies
-###### Run the code "Homographies.m". 
-###### This code loads the Images you want to use Homography on, using imread, and stores them. Running the given code asks to plot 4 points each on the left and the right images, respectively. Then we use the "calchomography" function to calculate the Homography. After the homography has been estimated, the user is prompted to click on points on the left image. These points are then converted to a 3x4 matrix and then are multiplied to the homographic matrix to get the right points to be plotted on the right image. the points obtained are plotted on the right image at the same point as in the left image.
+- Run the code "Homographies.m". 
+- This code loads the Images you want to use Homography on, using imread, and stores them. Running the given code asks to plot 4 points each on the left and the right images, respectively. Then we use the "calchomography" function to calculate the Homography. After the homography has been estimated, the user is prompted to click on points on the left image. These points are then converted to a 3x4 matrix and then are multiplied to the homographic matrix to get the right points to be plotted on the right image. the points obtained are plotted on the right image at the same point as in the left image.
 
 
 ## Image Alignment
